@@ -6,7 +6,7 @@ regions:
   parent_group: ''
 
 filters:
-  tag:Name: "backend*"
+  tag:Name: "Backend*"
 
 compose:
   ansible_host: private_ip_address
