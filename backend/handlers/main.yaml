@@ -1,0 +1,7 @@
+- name: backend 
+  tags:
+  - deployment
+  ansible.builtin.service:
+    name: backend
+    state: started
+    enabled: yes 
