@@ -34,6 +34,7 @@
   ansible.builtin.copy:
     src: expense.conf.j2
     dest: /etc/nginx/default.d/expense.conf
+    remote_src: yes
   notify:  restart nginx 
 
 # - name: restart
